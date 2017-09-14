@@ -56,6 +56,7 @@ rules:
     - max-depth: 3
   no-attribute-selectors: 2
   no-color-keywords: 2
+  no-css-comments: 0
   no-duplicate-properties: 2
   no-empty-ruleset: 2
   no-ids: 2

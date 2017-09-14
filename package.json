@@ -1,9 +1,12 @@
 {
-    "name": "foxskin",
-    "description": "Lightweight and basic style library used for different projects",
-    "license": "Public Domain",
-    "devDependencies": {
-        "node-sass": "4.5.3",
-        "sass-lint": "1.11.1"
-    }
+  "name": "foxskin",
+  "description": "Lightweight and basic style library used for different projects",
+  "license": "Public Domain",
+  "devDependencies": {
+      "node-sass": "4.5.3",
+      "sass-lint": "1.11.1"
+  },
+  "scripts": {
+    "build": "node-sass src/**/*.scss dist/foxsskin.css -o"
+  }
 }
