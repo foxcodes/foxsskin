@@ -1,0 +1,108 @@
+files:
+  include: '**/*.scss'
+options:
+  merge-default-rules: false
+rules:
+  attribute-quotes:
+    - 2
+    - include: true
+  bem-depth:
+    - 2
+    - max-depth: 3
+  border-zero:
+    - 2
+    - convention: '0'
+  brace-style:
+    - 2
+    - allow-single-line: false
+    - style: '1tbs'
+  class-name-format:
+    - 2
+    - allow-leading-underscore: false
+    - convention: hyphenatedbem
+  declaration-before-nesting: 2
+  empty-line-between-blocks:
+    - 2
+    - include: true
+    - allow-single-line-ruleset: false
+  extends-before-declarations: 2
+  extends-before-mixins: 2
+  final-new-line:
+    - 2
+    - include: true
+  force-attribute-nesting: 2
+  force-element-nesting: 2
+  force-pseudo-nesting: 0
+  function-name-format: 
+    - 0
+    - allow-leading-underscore: false
+    - convention: hyphenatedbem
+  hex-length: 
+    - 2
+    - style: long
+  indentation:
+    - 2
+    - size: 'tab'
+  leading-zero:
+    - 2
+    - include: false
+  mixin-name-format:
+    - 2
+    - allow-leading-underscore: false
+    - convention: camelcase
+  mixin-before-declarations: 2
+  nesting-depth:
+    - 2
+    - max-depth: 3
+  no-attribute-selectors: 2
+  no-color-keywords: 2
+  no-duplicate-properties: 2
+  no-empty-ruleset: 2
+  no-ids: 2
+  no-invalid-hex: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties: 2
+  no-qualifying-elements:
+    - 2
+    - allow-element-with-attribute: true
+    - allow-element-with-class: true
+  no-trailing-whitespace: 2
+  no-trailing-zero: 2
+  no-universal-selectors: 2
+  no-url-domains: 2
+  one-declaration-per-line: 2
+  property-sort-order:
+    - 2
+    - order: 'alphabetical'
+  property-units:
+    - 2
+    - global: ['rem', 'px']
+  pseudo-elements: 2
+  quotes:
+    - 2
+    - style: single
+  shorthand-values: 2
+  space-after-colon:
+    - 2
+    - include: 2
+  space-after-comma:
+    - 2
+    - include: true
+  spaec-around-operator:
+    - 2
+    - include: true
+  space-before-bang:
+    - 2
+    - include: true
+  space-before-brace:
+    - 2
+    include: true
+  trailing-semicolon:
+    - 2
+    - icnlude: true
+  variable-name-format:
+    - 2
+    - allow-leading-underscore: false
+  zero-unit:
+    - 2
+    - include: false
