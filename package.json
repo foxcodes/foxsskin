@@ -7,6 +7,7 @@
       "sass-lint": "1.11.1"
   },
   "scripts": {
-    "build": "node-sass --output-style compressed src/index.scss dist/foxsskin.css"
+    "build": "node-sass --output-style compressed src/index.scss dist/foxsskin.css",
+    "lint": "sass-lint -c .sass-lint.yml 'src/**/*.scss' -v -q"
   }
 }

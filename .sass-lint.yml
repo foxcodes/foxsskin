@@ -1,5 +1,6 @@
 files:
-  include: '**/*.scss'
+  include: 'src/**/*.scss'
+  exclude: 'node_modules/**/*.scss'
 options:
   merge-default-rules: false
 rules:
@@ -20,14 +21,14 @@ rules:
     - 2
     - allow-leading-underscore: false
     - convention: hyphenatedbem
-  declaration-before-nesting: 2
+  declarations-before-nesting: 2
   empty-line-between-blocks:
     - 2
     - include: true
     - allow-single-line-ruleset: false
   extends-before-declarations: 2
   extends-before-mixins: 2
-  final-new-line:
+  final-newline:
     - 2
     - include: true
   force-attribute-nesting: 2
@@ -42,7 +43,7 @@ rules:
     - style: long
   indentation:
     - 2
-    - size: 'tab'
+    - size: 2
   leading-zero:
     - 2
     - include: false
@@ -50,7 +51,7 @@ rules:
     - 2
     - allow-leading-underscore: false
     - convention: camelcase
-  mixin-before-declarations: 2
+  mixins-before-declarations: 2
   nesting-depth:
     - 2
     - max-depth: 3
@@ -58,7 +59,7 @@ rules:
   no-color-keywords: 2
   no-css-comments: 0
   no-duplicate-properties: 2
-  no-empty-ruleset: 2
+  no-empty-rulesets: 2
   no-ids: 2
   no-invalid-hex: 2
   no-mergeable-selectors: 2
@@ -78,7 +79,7 @@ rules:
   property-units:
     - 2
     - global: ['rem', 'px']
-  pseudo-elements: 2
+  pseudo-element: 2
   quotes:
     - 2
     - style: single
@@ -89,7 +90,7 @@ rules:
   space-after-comma:
     - 2
     - include: true
-  spaec-around-operator:
+  space-around-operator:
     - 2
     - include: true
   space-before-bang:
@@ -97,7 +98,7 @@ rules:
     - include: true
   space-before-brace:
     - 2
-    include: true
+    - include: true
   trailing-semicolon:
     - 2
     - icnlude: true
