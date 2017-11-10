@@ -1,4 +1,10 @@
+// mixins
+@import './mixins/column';
+
+// scss files
 @import './core/variables';
 @import './core/reset';
 @import './core/base';
+@import './core/column';
 @import './core/grid';
+

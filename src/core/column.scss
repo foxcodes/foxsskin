@@ -1,0 +1,5 @@
+@for $column from 1 through $column-total-number {
+  .col-#{$column} {
+    @include column($column);
+  }
+}

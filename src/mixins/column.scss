@@ -1,3 +1,7 @@
-@mixin column {
+@mixin column($size) {
+  background-color: #9C4D4D;
+  float: left;
+  min-height: $column-min-height;
   padding: $column-padding-top-bottom $column-padding-right-left;
+  width: $column-base-width * $size;
 }

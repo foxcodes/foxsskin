@@ -1,5 +1,4 @@
 .container {
-  background: #999999;
   margin: $container-margin-top-bottom $container-margin-right-left;
   max-width: $container-max-width;
   padding: $container-padding-top-bottom $container-padding-right-left;
@@ -8,15 +7,11 @@
 .row {
   margin: $row-margin-top-bottom $row-margin-right-left;
 
-  ::after {
+  &::after {
     clear: both;
     content: '';
     display: block;
   }
 }
 
-[class*='col-'] { // sass-lint:disable-line no-attribute-selectors
-  @include column;
-  width: 100%;
-}
 // TODO: add columns for each size and different breakpoints, use mixins where possible
