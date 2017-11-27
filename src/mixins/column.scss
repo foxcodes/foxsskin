@@ -5,3 +5,7 @@
   padding: $column-padding-top-bottom $column-padding-right-left;
   width: $column-base-width * $size;
 }
+
+@mixin column-offset($size) {
+  margin-left: $column-base-width * $size;
+}

@@ -2,4 +2,11 @@
   .col-#{$column} {
     @include column($column);
   }
+
+  @for $column-offset from 1 through $column-total-number {
+    .col-#{$column}--offset-#{$column-offset} {
+      @include column($column);
+      @include column-offset($column-offset);
+    }
+  }
 }
