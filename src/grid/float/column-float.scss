@@ -1,12 +1,12 @@
 @for $column from 1 through $column-total-number {
   .col-#{$column} {
-    @include column($column);
+    @include column-float($column);
   }
 
   @for $column-offset from 1 through $column-total-number {
     .col-#{$column}--offset-#{$column-offset} {
-      @include column($column);
-      @include column-offset($column-offset);
+      @include column-float($column);
+      @include column-offset-float($column-offset);
     }
   }
 }

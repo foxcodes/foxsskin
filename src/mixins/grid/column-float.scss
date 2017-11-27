@@ -1,0 +1,9 @@
+@mixin column-float($size) {
+  @include column-base();
+  background-color: #9C4D4D;
+  float: left;
+}
+
+@mixin column-offset-float($size) {
+  margin-left: $column-base-width * $size;
+}

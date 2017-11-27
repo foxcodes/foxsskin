@@ -4,14 +4,4 @@
   padding: $container-padding-top-bottom $container-padding-right-left;
 }
 
-.row {
-  margin: $row-margin-top-bottom $row-margin-right-left;
-
-  &::after {
-    clear: both;
-    content: '';
-    display: block;
-  }
-}
-
 // TODO: add columns for each size and different breakpoints, use mixins where possible

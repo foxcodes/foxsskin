@@ -1,10 +1,22 @@
 // mixins
-@import './mixins/column';
+@import './mixins/grid/column-base';
+@import './mixins/grid/column-flexbox';
+@import './mixins/grid/column-float';
+@import './mixins/grid/grid-row';
 
 // scss files
+
+// core files
 @import './core/variables';
 @import './core/reset';
 @import './core/base';
-@import './core/column';
-@import './core/grid';
 
+// grid files
+@import './grid/container';
+
+// commented out for development and testing of flex grid
+// @import './grid/float/row-float';
+// @import './grid/float/column-float';
+
+@import './grid/flexbox/row-flexbox';
+@import './grid/flexbox/column-flexbox';

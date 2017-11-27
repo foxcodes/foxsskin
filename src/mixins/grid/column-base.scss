@@ -1,0 +1,5 @@
+@mixin column-base() {
+  min-height: $column-min-height;
+  padding: $column-padding-top-bottom $column-padding-right-left;
+  width: $column-base-width * $size;
+}
